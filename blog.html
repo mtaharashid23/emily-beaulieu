@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog | Emily Beaulieu — Garden Notebook</title>
+<meta name="description" content="Herbal learning, writing life updates, and Emily Beaulieu's scoliosis journey — stories from the garden notebook." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<div id="preloader">
+  <svg class="pre-leaf" viewBox="0 0 64 64" fill="none"><path d="M32 4C16 14 8 32 14 50c6-2 16-8 22-20 4-10 4-18-4-26z" fill="#C79A3E"/></svg>
+  <div class="pre-word">Flipping the pages…</div>
+  <div class="pre-bar"><i></i></div>
+</div>
+
+<div class="scroll-progress"></div>
+<div class="almonds-trail"><img src="images/almonds-cat.svg" class="almonds-cat" alt=""></div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6C18 14 11 30 16 46c5-2 14-7 19-18 4-9 3-16-3-22z" fill="#E3C26B"/></svg></span>
+      <span>Emily Beaulieu<small>Author &amp; Herbalist</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="books.html">Books</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="store.html">Store</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="drawer-overlay"></div>
+<div class="mobile-drawer">
+  <button class="drawer-close">✕</button>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="books.html">Books</a>
+  <a href="blog.html">Blog</a>
+  <a href="store.html">Store</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<section class="hero hero-h-58">
+  <div class="container">
+    <div class="hero-copy measure-md">
+      <span class="eyebrow">The Garden Notebook</span>
+      <h1><span class="line">Herbs, classrooms</span><span class="line">&amp; <em>the writing life</em></span></h1>
+      <p>Notes from the homestead, the classroom, and the writing desk — plus an occasional Almonds update.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cream-deep">
+  <div class="container">
+    <div class="filter-row">
+      <button class="filter-pill active" data-filter="all">All Posts</button>
+      <button class="filter-pill" data-filter="herbal">Herbal Learning</button>
+      <button class="filter-pill" data-filter="writing">Writing Life</button>
+      <button class="filter-pill" data-filter="faith">Faith &amp; Family</button>
+      <button class="filter-pill" data-filter="scoliosis">Scoliosis Journey</button>
+    </div>
+
+    <div class="blog-grid">
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="herbal">
+        <div class="blog-img"><img src="images/cover-herbalist-club-1.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Herbal Learning</span><h3>5 Herbs Every Young Herbalist Should Know</h3><p>From lavender to chamomile — simple, safe herbs to start exploring with your kids this season.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>5 min read</span></div></div>
+      </a>
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="writing">
+        <div class="blog-img"><img src="images/author-with-escape.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Writing Life</span><h3>How The Escape Found Its Heart</h3><p>The story behind Lainey, Colton, Maverick, and the orange cat who almost didn't make it into the book.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>4 min read</span></div></div>
+      </a>
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="scoliosis">
+        <div class="blog-img"><img src="images/cover-different-but-me.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Scoliosis Journey</span><h3>What I Wish I Knew Before Surgery</h3><p>Ten years after my spinal fusion, here's what I'd tell my 14-year-old self.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>6 min read</span></div></div>
+      </a>
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="faith">
+        <div class="blog-img"><img src="images/author-with-healer-at-war.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Faith &amp; Family</span><h3>Writing Faith Into Fiction</h3><p>How Ruth Talcott's story in The Healer at War became a meditation on my own faith.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>5 min read</span></div></div>
+      </a>
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="herbal">
+        <div class="blog-img"><img src="images/cover-herbalist-club-2.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Herbal Learning</span><h3>Building a Hidden Garden With Kids</h3><p>The real homestead inspiration behind Camp PineWhisper's forgotten garden.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>4 min read</span></div></div>
+      </a>
+
+      <a href="blog-post.html" class="blog-card reveal-up" data-cat="writing">
+        <div class="blog-img"><img src="images/author-with-herbalist-club-2.jpg" alt=""></div>
+        <div class="blog-body"><span class="blog-cat">Writing Life</span><h3>Meet Almonds: My Chaotic Co-Writer</h3><p>The real story of the cat who keeps showing up in every book — and on this website.</p><div class="blog-meta"><span>Emily Beaulieu</span><span>·</span><span>3 min read</span></div></div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-strip reveal-up">
+      <span class="eyebrow">Don't miss a post</span>
+      <h2>Follow along on Facebook</h2>
+      <p>New blog posts, book updates, and homestead photos shared regularly.</p>
+      <a href="https://www.facebook.com/share/1CjimGyHHg/" target="_blank" rel="noopener" class="btn btn-gold"><span>Follow on Facebook</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="brand"><span class="brand-mark"><svg viewBox="0 0 64 64" fill="none"><path d="M32 6C18 14 11 30 16 46c5-2 14-7 19-18 4-9 3-16-3-22z" fill="#E3C26B"/></svg></span><span>Emily Beaulieu</span></a>
+      <p>Planting seeds of knowledge and wonder — one story at a time.</p>
+      <div class="social-row"><a href="https://www.facebook.com/share/1CjimGyHHg/" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a></div>
+    </div>
+    <div class="footer-col"><h4>Explore</h4><a href="about.html">About Emily</a><a href="books.html">All Books</a><a href="blog.html">Blog</a><a href="store.html">Store</a></div>
+    <div class="footer-col"><h4>Books</h4><a href="book-herbalist-club-1.html">The Herbalist Club</a><a href="book-healer-at-war.html">The Healer at War</a><a href="book-the-escape.html">The Escape</a><a href="book-different-but-me.html">Different But Me!</a></div>
+    <div class="footer-col"><h4>Get in Touch</h4><a href="mailto:theherbalist2026@gmail.com">theherbalist2026@gmail.com</a><a href="contact.html">Contact Page</a></div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Emily Narelle Beaulieu. All rights reserved.</span>
+    <span class="made">Site crafted with <i class="fa-solid fa-leaf text-gold"></i></span>
+  </div>
+</footer>
+
+<button class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
